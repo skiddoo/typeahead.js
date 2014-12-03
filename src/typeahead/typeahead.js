@@ -129,11 +129,7 @@ var Typeahead = (function() {
       this.dropdown.open();
     },
 
-    _onBlurred: function onBlurred() {
-      this.isActivated = false;
-      this.dropdown.empty();
-      this.dropdown.close();
-    },
+    _onBlurred: function onBlurred() {},
 
     _onEnterKeyed: function onEnterKeyed(type, $e) {
       var cursorDatum, topSuggestionDatum;
