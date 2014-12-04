@@ -99,7 +99,7 @@ var Dataset = (function() {
         $suggestions.append.apply($suggestions, nodes);
 
         that.highlight && highlight({
-          className: 'tt-highlight',
+          className: 'tt-highlight needsclick',
           node: $suggestions[0],
           pattern: query
         });
